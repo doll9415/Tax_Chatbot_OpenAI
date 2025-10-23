@@ -8,7 +8,7 @@ st.set_page_config(page_title="ChatGPT Streamlit Bot", page_icon="💬")
 st.title("💬 Streamlit Chatbot powered by OpenAI")
 
 # API Key 입력 또는 설정
-openai_api_key = st.text_input("🔑 Enter your OpenAI API Key", type="password")
+openai_api_key = st.text_input("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", type="password")
 
 if not openai_api_key:
     st.warning("Please enter your API key to start chatting.")
